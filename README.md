@@ -15,3 +15,7 @@ Development goals:
 - **Well-documented and comprehensive local API** — Having nearly all of the protocol code behind a local API enables the application to be very modular and therefore easier to port across platforms (including Android/iOS).
 
 - **More service integrations (email, MQTT, etc.)** — Integrating Nitroshare with other services (like MQTT for Home Assistant, etc.) will open up a lot of new possibilities and simplify information transfer between devices.
+
+### Warning
+
+As nitroshare2 is still in its early stages, APIs / ABIs are **not** stable and will likely change dramatically. If you build something that uses them, expect it to break until things are in a more finalized state.
