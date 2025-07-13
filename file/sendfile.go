@@ -27,7 +27,7 @@ func NewSendFile(basePath, name string) (*SendFile, error) {
 }
 
 func (s *SendFile) Type() string {
-	return Type
+	return ItemType
 }
 
 func (s *SendFile) Size() int64 {

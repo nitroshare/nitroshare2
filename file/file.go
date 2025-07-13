@@ -2,6 +2,6 @@ package file
 
 const (
 
-	// Type indicates the item type for files.
-	Type = "net.nitroshare.file"
+	// ItemType indicates the item type for files.
+	ItemType = "net.nitroshare.file"
 )
